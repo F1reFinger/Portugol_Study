@@ -5,20 +5,25 @@ programa
 	{
 		real N1,N2,N3,N4,N5
 		real soma = 0
+		inteiro it
 		cadeia aluno
 
 
 		escreva("Digite o nome do aluno: ")
 		leia(aluno)
 
-		escreva("Aluno: " + aluno)
+		escreva("Aluno: " + aluno + "\n")
 
 		para (inteiro i = 0 ; i < 5; i++ ){
+			it = i + 1
+			escreva("digite a nota " + it + ": ")
 			leia(N1)
 			soma += N1
 		}
 
-		escreva("Soma: " + soma)
+		soma /= 5
+
+		escreva("Sua nota final é: " + soma)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 271; 
+ * @POSICAO-CURSOR = 288; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
