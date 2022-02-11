@@ -6,7 +6,7 @@ programa
 		inteiro menu
 		escreva("bem vindo a brasil telecom\n" + "1-Recarga de celular\n2-Cancelar linha\n3-contratar pacote prime\n")
 		leia(menu)
-		escolha(menu){
+		meescolha(nu){
 			caso(1):
 				escreva("lamentamos mas essa opção está indisponivel tente mais tarde!!\n")
 				pare
